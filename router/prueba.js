@@ -2,6 +2,7 @@ const Router = require('koa-router')
 const config = require('../config/index')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
+const db = require('../database');
 
 const router = new Router({
     prefix: '/prueba'
